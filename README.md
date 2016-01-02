@@ -1,13 +1,14 @@
 # seed-app
-# Basic AngularJS seed app for use with AT&amp;T Drive UI Kit
+# AngularJS seed app
 
 To use, simply run a web server inside the root directory of this seedapp. 
 For convinence two routes (pages) are created to get you up and running fast, you can rename or delete these as you build your app. 
 
 UI Kit reference site is at: [uikit.attdrive.com](http://uikit.attdrive.com)
 
-username: previewLogin
-password: haveFun
+Username: previewLogin
+
+Password: haveFun
 
 ## AT&T Drive Platform APIs
 
@@ -27,5 +28,6 @@ For help during the hackathon join the #devsummit2016 slack channel: [attdrive.s
 UI Kit reference site is at: [uikit.attdrive.com](http://uikit.attdrive.com)
 
 username: previewLogin
+
 password: haveFun
 
