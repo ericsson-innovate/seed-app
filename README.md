@@ -10,6 +10,7 @@ Username: previewLogin
 
 Password: haveFun
 
+
 ## AT&T Drive Platform APIs
 
 This seedapp will connnect you to DEC, nSpan and nServices on localhost:4412 which is the default port for the message exchange. Follow the provided documentation on the jump drive to install these services. 
@@ -21,13 +22,8 @@ AT&T Drive API documentation is at: [developer.att.com/drive](https://developer.
 Username: drivesummithack16
 Password: password123
 
+
 ## HELP 
 
 For help during the hackathon join the #devsummit2016 slack channel: [attdrive.slack.com](https://attdrive.slack.com/messages/devsummit2016/) 
-
-UI Kit reference site is at: [uikit.attdrive.com](http://uikit.attdrive.com)
-
-username: previewLogin
-
-password: haveFun
 
