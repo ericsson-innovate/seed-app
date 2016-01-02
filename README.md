@@ -12,9 +12,9 @@ Password: haveFun
 
 ## AT&T Drive Platform APIs
 
-This seedapp will connnect you to DEC, nSpan and nServices on localhost:4412 which is the default port for the message exchange. Follow the provided documentaion on the jump drive to install these services. 
+This seedapp will connnect you to DEC, nSpan and nServices on localhost:4412 which is the default port for the message exchange. Follow the provided documentation on the jump drive to install these services. 
 
-Here is some simple plain JavaScript examples to get you started: [github.com/ericsson-innovate/drive-examples-2016](https://github.com/ericsson-innovate/drive-examples-2016)
+Here is some simple plain JavaScript examples to get you started with AT&T Drive APIs: [github.com/ericsson-innovate/drive-examples-2016](https://github.com/ericsson-innovate/drive-examples-2016)
 
 AT&T Drive API documentation is at: [developer.att.com/drive](https://developer.att.com/drive/in-vehicle-api-docs)
 
