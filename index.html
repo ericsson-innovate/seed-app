@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+    <title>myFirstApp</title>
+    <link rel="stylesheet" href="att-sdk/0.0.8/styles/att-sdk.css">
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body ng-app="app">
+    <att-header app-name="appName" current-item="viewName" app-image="images/att-icon.png"></att-header>
+    <att-content has-header="true" background-img="images/att-stencil.png">
+        <ng-view></ng-view>
+    </att-content>
+    <att-drawer>
+        <att-menu title="title" items="appLinks"></att-menu>
+    </att-drawer>
+    <att-loader></att-loader>
+
+    <!-- DEC API -->
+    <script src="att-sdk/0.0.8/scripts/Properties.js"></script>
+    <script src="https://garagesvservices.ericy.com/hwadecjssdk-1/lib/dec/js/minified/DECSdk.min.js"></script>
+    <script src="https://garagesvservices.ericy.com/hwadecjssdk-1/lib/dec/js/minified/Promise.min.js"></script>
+    <script type="text/javascript" src="https://garagesvservices.ericy.com/hwadecjssdk-1/lib/dec/json/Media.json"></script>
+
+    <!-- APP FRAMEWORK -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-route.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.min.js"></script>
+    <script src="att-sdk/0.0.8/scripts/connectedCarSDK-tpls.js"></script>
+    <script src="scripts/app.js"></script>
+
+    <!--Controllers-->
+    <script src="firstPage/controllers/FirstPageCtrl.js"></script>
+    <script src="mediaPlayer/controllers/MediaPlayerCtrl.js"></script>
+</body>
+</html>
